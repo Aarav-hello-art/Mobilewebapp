@@ -1,0 +1,75 @@
+body{
+background-color: aqua;
+font-family: 'Viaoda Libre', cursive;
+}
+
+#header{
+background-color: darkcyan;
+color: white;
+}
+
+#header img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.maindiv{
+    background: aquamarine;
+    border: 3px solid white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.maindiv label{
+    width : 300px;
+    background-color :turquoise;
+    color : white;
+    padding: 5px;
+font-size: 22px;
+box-shadow: 5px 5px 20px whitesmoke;
+}
+
+#camera,#snap{
+    border: 3px dashed white;
+    width : 300px;
+    height: 300px;
+    box-shadow: 5px 5px 20px whitesmoke;
+}
+
+.maindiv button{
+    width: 300px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 20px whitesmoke;
+    font-size: 22px;
+}
+
+#outputdiv{
+    margin-top: 50px;
+    
+}
+
+#outputdiv h4{
+    background-color: white;
+    box-shadow: 5px 5px 20px whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#outputdiv img{
+width: 100px;
+}
+
+#outputdiv span{
+    color: teal;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
